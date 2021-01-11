@@ -1,0 +1,409 @@
+﻿<html>
+  <head>
+
+    <!-- 字型 -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&amp;display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <style>      
+      html, body {
+        height: 100%;
+        font-family: "Cairo", sans-serif;
+        -webkit-font-smoothing: antialiased;        
+      }
+      .intro {
+        color: black;
+        width: 1265;
+        height: 47;
+      }
+      li {
+          float: left;
+          background-color:white;
+          margin-right: 50px;
+              
+      }
+      li a {
+            display:block ;        
+            text-align: left;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            /* 加粗 */
+            font-weight:650; 
+            letter-spacing: 2px;           
+      }            
+      .title {
+        color: black;
+      }      
+      .title:hover {
+        color:#7fad39;;
+      }
+      .submenu
+      {
+		    display: none;
+        position: relative;
+        left: 460px;
+        top: -30px;
+        list-style-type:none;
+        /* margin: 0;padding: 0; */
+        /* float:none; */
+        /* background: black; */
+        /* color: white; */
+        /* padding:5px 0; */
+        height: 150px;width: 180px;
+/*        position:relative;
+        left:100px;*/
+      }
+      .submenu li 
+      {
+        /* list-style-type:none;margin: 0;padding: 0; */
+        float:none;
+        background: black;
+        height: 38px;width: 180px;               
+      }
+
+      .submenu li :hover
+      {
+        color: #7fad39;;
+      }
+
+      .submenu a
+      { 
+	    
+	      color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;        
+        /* padding-bottom: 5px; */
+      }
+	  
+	  .categories_all 
+	  {
+        background: #7fad39;
+        position: relative;
+        padding: 10px 25px 10px 40px;
+        cursor: pointer;
+	  }
+
+    .leftupmenu
+    {
+      border-style: solid;
+      border-width:1px;
+      border-color: #7fad39;
+      background-color:#7fad39;
+      width: 262.5px;
+      height: 45px;
+      color: white;
+      /* padding-left: 30px;  */
+      font-weight: 650;
+      /* font-size: 18px;   */
+      
+    }
+  
+    .leftupinsidemenu
+    { padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    
+
+
+    }
+	   .leftdownmenu
+    {
+      
+      /* border-color: grey;
+      border-color: transparent; */
+      border: solid 0.1px rgba(0,0,0,.2);
+      width: 262.5px;
+      height: 453px;
+      /* padding-left: 50px; */
+    }
+
+    .leftdownsubmenu{
+      list-style-type: none;
+
+    }
+    .leftdownsubmenu li 
+      {
+        /* list-style-type:none;margin: 0;padding: 0; */
+        float:none;
+        background: white;
+        /* height: 38px;width: 180px;                */
+      }
+
+      .leftdownsubmenu li :hover
+      {
+        color: #7fad39;;
+      }
+
+      .leftdownsubmenu a
+      { 
+	    
+	      color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0px;   
+        font-weight:400;
+        padding-bottom: 13px;
+        /* padding-bottom: 5px; */
+      }
+
+      .searchbar
+      {
+        border: solid 0.1px rgba(0,0,0,.2);
+        width: 608px;
+        height: 50px;
+
+      }
+      
+      .catagories
+      {
+        width: 164.391;
+        height: 24;
+        padding-left: 18px;
+        padding-bottom: 10px;
+        /* padding-top:  5px; */
+        /* padding-bottom:4px ; */
+        
+      }
+	  
+      .catagories_span
+    {
+
+      position: absolute;
+      right: 14px;
+      top: 5px;
+    
+    }
+    .site-btn
+    {
+      background-color: #7fad39;
+      width: 110px;
+      height: 50px;
+      color: white;
+      font-family: "Cairo", sans-serif;
+      font-weight: 800;
+      border: none;
+      padding: 0px;
+
+    }
+    </style>
+  </head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <div class="intro">
+    <i class="fa fa-envelope" aria-hidden="true" style="padding-left: 50px;"></i>
+    example@gmail.com
+    <span style="color: lightgray; padding-left: 15; padding-right: 15;"
+      >|</span
+    >
+    Free Shipping for all Order of $99
+    <i class="fa fa-facebook" style="padding-left: 150;" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+
+    <span style="color: lightgray; padding-left: 15; padding-right: 15;"
+      >|</span
+    >
+    <img src="language.png" alt="" /> English</span
+    ><span class="arrow_carrot-down"></span>
+    <span style="color: lightgray; padding-left: 30; padding-right: 20;"
+      >|</span
+    >
+    <i class="fa fa-user" aria-hidden="true"></i>
+  </div>
+
+  <table>
+    <tr>
+      <td style="width:262.5px;height:80px">
+        <img src="logo.png" style="padding-right: 143px;padding-left: 50px;">
+      </td>
+      <td>
+        
+        <ul style="list-style-type:none;margin: 0;padding: 0;">
+          <li><a class="title" href="#news">HOME</a></li>
+          <li><a class="title" href="#news">SHOP</a></li>
+          <li><a class="title" href="#home">PAGES</a></li>
+          <li><a class="title" href="#news">BLOG</a></li>
+          <li><a class="title" href="#contact">CONTACT</a></li>
+          
+        </ul>
+      </td>
+      <td>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+        
+        <span style="color:#6f6f6f">item:
+          
+        </span>
+        
+        <span>$150
+        
+        </span>
+
+      </td>
+    </tr>
+  </table>
+
+
+  <ul class="submenu">
+    <li><a href="#news">Shop Details </a></li>
+    <li><a href="#news">Shopping Cart</a></li>
+    <li><a href="#home">Check Out</a></li>
+    <li><a href="#news">Blog Detials</a></li>
+  </ul>
+  
+
+<div class="row">
+  <div class="col-lg-3">
+    
+
+    <div style="padding-left: 50px;">
+      <div class="leftupmenu">      
+        <div class="leftupinsidemenu">
+          <i class="fa fa-bars" aria-hidden="true"  style="padding-right: 10px;"></i>
+          <span style="font-size: 18px;padding-right: 28px;" >All departments</span> 
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="leftdownmenu">
+        <nav>
+          <ul class="leftdownsubmenu">
+          <li><a href="#">Fresh Meat</a>
+          </li>
+          <li><a href="#">Vegetables</a>
+          </li>
+          <li><a href="#">Fruits & Nut Gifts</a>
+          </li>
+          <li><a href="#">Freash Berries</a>
+          </li>
+          <li><a href="#">Ocean Foods</a>
+          </li>
+          <li><a href="#">Butter & Eggs </a>
+          </li><li><a href="#">Fastfood</a>
+          </li>
+          <li><a href="#">Fresh Onion</a>
+          </li>
+          <li><a href="#">Papayaya & Crisps</a>
+          </li>
+          </li><li><a href="#">Oatmeal</a>
+           </li>
+          <li><a href="#">Fresh Bananas</a>
+          </li>
+          </ul>
+          </nav>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-6">
+
+
+  <table class="searchbar">
+    <tr>
+      <td>
+        <div class="catagories">
+          <span style="font-size: 16px;font-weight:700;padding-bottom: 2px;"> All Categories </span>
+          <i style="padding-left: 30px;" class="fa fa-angle-down" aria-hidden="true"></i>
+          
+          
+          </span>
+        </div>
+      </td>
+      <td>
+        <div>
+          |
+          <input style="padding-right: 150px;border: none;" placeholder="what do you need?">
+
+        </div>
+      </td>
+      <td style="padding:0px;width: 10px;">
+        <div>
+          <button type="submit" class="site-btn">SEARCH</button>
+        </div>
+      </td>
+
+    </tr>
+  </table>
+
+
+
+    
+    
+    
+
+
+  </div>
+  <div class="col-lg-3">
+    <div style="background-color: #f5f5f5;width:50px;height:50px;border-radius: 80%;float: left;">
+      <i style="color:#7fad39 ;padding: 18px;" class="fa fa-phone" aria-hidden="true"></i>
+      
+    </div>
+    <div style="font-weight: 700;padding-left: 70px;" >
+      +65 11.188.888
+    </div>
+    <div style="padding-left: 70px;" >
+      support 24/7 time
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <img src="img/banner.jpg">
+
+  </div>
+</div>
+</div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-3">
+            我3格
+            <ul style="display: block;box-sizing: border-box;list-style-type: disc;">
+              <li style="display: list-item">
+                <a href="#">22222222</a>  
+              </li>
+              <li>
+                  <a href="#">222222</a>  
+                </li>
+              <li>
+                  <a href="#">2222222</a>  
+              </li>
+              <li>
+                  <a href="#">2222222</a>  
+              </li>
+              <li>
+                  <a href="#">222222</a>  
+              </li>
+              <li>
+                  <a href="#">2222222</a>  
+              </li>
+      
+            </ul>
+      
+        </div>   
+        <div class="col-lg-9">
+            
+            <div>
+              <div style="float:left">
+                b1
+              </div>
+              <div>
+                b2
+              </div>
+            </div>
+            <div>
+              <img src="img/banner.jpg">
+            </div>
+        </div>
+      </div>
+</div>
+
+  
+
+  
+ 
+</html>
