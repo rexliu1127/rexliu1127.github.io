@@ -143,19 +143,23 @@ article a {
   font-size: 20px;
 }
 
-.everyootd img {
-  width: 100%;
-}
-
 .igcon img {
   width: 50px;
 }
 
+.everyootd img {
+  width: 100%;
+}
+
+
+
 .everyootd ul {
   display: flex;
   /* justify-content: space-between; */
-  width: 80%;
-  margin: auto;
+  /* width: 80%;
+  margin: auto; */
+  justify-content:center;
+  
 }
 
 .everyootd li {
@@ -198,6 +202,8 @@ footer {
 }
 .igcon {
   text-align: center;
+  width:10%;
+  margin:0 auto;
 }
 .everyootd {
   text-align: center;
