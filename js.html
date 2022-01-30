@@ -1,0 +1,96 @@
+<script>
+  function guess(name) {
+    alert("hi," + name);
+  }
+
+  for (i = 1; i <= 5; i++) {
+    for (j = 3; j >= 1; j--) {
+      console.log("*");
+    }
+  }
+
+  function add(a, b) {
+    let sum = a + b;
+    return sum;
+  }
+
+  function minus(a, b) {
+    let minus = a - b;
+    return a - b;
+  }
+
+  function multiply(a, b) {
+    let minus = a * b;
+    return a * b;
+  }
+
+  function div(a, b) {
+    let minus = a / b;
+    return a / b;
+  }
+
+  function add(x, y) {
+    return x + y;
+  }
+
+  function helloadd() {
+    alert("Hi,相加結果:" + add(5, 6));
+  }
+
+  function goodday() {
+    return "goodday";
+  }
+
+  function show2Function(func1, func2) {
+    alert(func1);
+    alert(func2);
+  }
+  function run(count) {
+
+    for (i = 1; i <= count; i++) {
+      alert("第" + i + "次");
+    }
+    
+  }
+  // console.log(add(8, 4));
+  // console.log(minus(8, 4));
+  // console.log(multiply(8, 4));
+  // console.log(div(8, 4));
+  // helloadd();
+  // show2Function(goodday(), add(9, 9));
+  guess("ball");
+  function add(x, y) {
+    var sum = parseInt(x) + parseInt(y);
+    alert("相加結果是:" + sum);
+  }
+</script>
+<html>
+  <body>
+    <!-- 文字方塊 -->
+    <input type="text" id="name" />
+
+    <!-- 按紐 -->
+    <input
+      type="button"
+      value="say hello"
+      onclick="guess(document.getElementById('name').value)"
+    />
+    <div>
+      <input type="text" id="t1" />
+      <input type="text" id="t2" />
+      <input
+        type="button"
+        onclick="add(document.getElementById('t1').value,document.getElementById('t2').value)"
+        value="加"
+      />
+    </div>
+    <div>
+      <input type="text" id="r1" />
+      <input
+        type="button"
+        onclick="run(document.getElementById('r1').value)"
+        value="跑"
+      />
+    </div>
+  </body>
+</html>
