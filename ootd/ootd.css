@@ -160,12 +160,19 @@ article a {
   margin: auto; */
   justify-content:center;
   
+  
 }
 
 .everyootd li {
-  padding-right: 50px;
+  /* padding-right: 50px; */
   align-self: center;
 }
+
+.everyootd li img{
+  /* padding-right: 50px; */
+  width: 80%;
+}
+
 
 /* --footer-- */
 footer {
