@@ -60,10 +60,12 @@ nav ul {
 
 nav ul {
   display: flex;
+  margin-top: -1px;
 }
 
 nav ul > li {
   position: relative;
+  
 }
 
 nav ul > li > a {
