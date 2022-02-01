@@ -145,9 +145,6 @@ article a {
   font-size: 20px;
 }
 
-.igcon img {
-  width: 50px;
-}
 
 .everyootd img {
   width: 100%;
@@ -211,9 +208,16 @@ footer {
 }
 .igcon {
   text-align: center;
-  width:10%;
+  width: 15%;
   margin:0 auto;
+  display: flex;
+  align-items: center;
 }
+.igcon a img {
+  width: 20%;
+}
+
+
 .everyootd {
   text-align: center;
 }

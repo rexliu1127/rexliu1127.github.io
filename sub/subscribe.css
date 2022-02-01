@@ -1,0 +1,311 @@
+@import url('reset.css');
+
+html, body{
+    height: 100%;
+}
+body a{
+    text-decoration: none;
+}
+
+.wapper{
+    min-height: 100%;
+    margin: 0;
+}
+
+/* -------LOGO ---------*/
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0px 20px;
+    z-index: 9;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    margin-right: 2px;
+    line-height: 80px;
+}
+
+header ul > li > a >img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+/* -------主選單------- */
+nav{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    font-weight: bold;
+    z-index: 9;
+    
+    
+}
+
+nav ul{
+    /* background-color: transparent;       */
+    margin: 0 auto ;
+    background-color: white;
+    box-shadow: 0 0 15px 20px white;
+    /* margin-top: -1px; */
+    display: flex;
+    top: 0;
+    
+}
+
+nav ul>li{
+    position: relative;
+}
+
+nav ul>li>a{
+    display: block;
+    text-align: center;
+    color: #888098;
+    line-height: 50px;
+}
+
+nav ul>li>a:hover{
+    color: #292929;
+}
+
+nav a{
+    text-decoration: none;
+    width: 200px;
+    font-size: 18px;  
+}
+
+
+
+/* 次選單 */
+ol{
+    background-color: transparent;
+    display: none; 
+    position: absolute;
+}
+
+ol>li>a{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    color: #888098;
+}
+
+ol>li>a:hover{
+   color: #292929;
+}
+
+ul>li:hover ol{
+    display: block;
+}
+
+
+/* 訂閱 */
+.subscricbe_wapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.subetop{
+    padding: 100px 120px 50px 0px;
+    /* width: 100%; */
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+}
+.subscricbe_wapper img{
+    width: 100%;
+    padding: 0 20px 0 0;
+    
+}
+
+.sub_bigpic img{
+    display: block;
+    position:absolute;
+    /* z-index:1; */
+    left: 0;
+    top: 0;
+    
+    /* bottom: 0; */
+    /* margin: auto; */
+    transform: translate(-0%,50%);
+}
+
+
+.sub_right_pic{
+    /* position:absolute; */
+    /* top:20px;
+    right: 50px; */
+    /* overflow: hidden; */
+}
+
+.sub_right_pic img{
+    vertical-align: middle;
+    /* width: 100%;
+    max-width: 100%; */
+    /* height: auto; */
+    position:absolute;
+    /* z-index:1; */
+    right: 0;
+    top: 0;
+    /* bottom: 0; */
+    /* margin: auto; */
+    transform: translate(-40%,220%);
+    /* position: fixed; */
+}
+ 
+span{
+    font-size: 32px;
+}
+
+
+.subemiddle{
+    position: relative;
+    margin: auto;
+    /* overflow: hidden; */
+    
+
+}
+
+.sub_let_pic{
+    position:relative;
+    /* z-index:1; */
+    left: 0;
+    top: 200px;
+    margin: auto;
+    transform: translate(10%,100%);
+    
+    
+
+}
+
+.sub_let_pic img{
+    
+}
+
+
+.subscricbe_con{
+    
+}
+
+
+
+
+
+
+.clear {
+    clear: both;
+  }
+
+/* --footer-- */
+footer{
+    padding-top: 100px;
+    margin-top: auto;
+    background-color: #7C7C7C;
+    height: 150px;
+    width: 100%;
+    z-index: 99;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+footer h1{
+    font-size: 26px;
+}
+
+footer a{
+    font-size: 28px;
+}
+
+.join{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.join h1{
+    position: absolute;
+
+}
+.join a{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+}
+
+.follow{
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+}
+
+.follow ul{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    flex-direction: column;
+}
+
+.follow a{
+    
+}
+
+.follow li{
+    display: flex;
+    top: 20px;
+    
+}
+
+.foot_right{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.foot_right ul{
+
+}
+
+.foot_right ul>li>a{
+    display: flex;
+    text-align: center;
+    top: 20px;
+}
+
+
+
+.footer_p h3{
+    
+}
+.footer_p{
+    font-size: 18px;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+}
+
+.foot_logo img{
+    width: 250px;
+    display:flex;
+}
+
